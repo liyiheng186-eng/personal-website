@@ -3,6 +3,8 @@ import type { NextConfig } from "next";
 
 initOpenNextCloudflareForDev();
 
-const nextConfig: NextConfig = {};
+const nextConfig: NextConfig = {
+  output: "standalone",
+};
 
 export default nextConfig;
